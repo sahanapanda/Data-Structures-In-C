@@ -5,4 +5,4 @@ Doubly Linked List
 Circular Singly Linked List
 Circular Doubly Linked List
 Radix Sort
-Polynomial ADT
+Polynomial ADT - Addition
