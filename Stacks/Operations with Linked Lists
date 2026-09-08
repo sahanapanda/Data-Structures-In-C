@@ -107,3 +107,20 @@ void Display(){
 		}
 	}
 }
+
+void Reverse() {
+    struct node *prev = NULL;
+    struct node *current = top;
+    struct node *next = NULL;
+
+    while (current != NULL) {
+        next = current->next;
+        current->next = prev;
+        prev = current;
+        current = next;
+    }
+
+    top = prev;
+
+    printf("Stack reversed successfully!\n");
+}
