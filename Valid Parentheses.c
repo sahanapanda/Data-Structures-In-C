@@ -5,7 +5,7 @@
 bool isValid(char* s) {
     int len = strlen(s);
     
-    // An odd length string cannot be balanced
+    // An odd length string cannot be balanced 2
     if (len % 2 != 0) {
         return false;
     }
