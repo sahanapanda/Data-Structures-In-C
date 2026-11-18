@@ -16,7 +16,6 @@ class MatrixMultiplication
                 }
             }
         }
-
         System.out.println("Result:");
 
         for(int i = 0; i < 2; i++)
